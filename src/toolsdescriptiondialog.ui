@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ToolsDescription</class>
+ <widget class="QDialog" name="ToolsDescription">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>236</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Tools description</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="rgbFilterTab">
+      <attribute name="title">
+       <string>RGB filter</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;RGB filter&lt;/span&gt;&lt;/p&gt;&lt;p&gt;RGB filter allows for entire image set value from 0 to 255 for given component.&lt;/p&gt;&lt;p&gt;User must enter component and value.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="drawSquareTab">
+      <attribute name="title">
+       <string>Draw square</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Draw square. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;User must enter:&lt;/p&gt;&lt;p&gt;1) Top left (by pressing left mouse button) and bottom right (by releasing button) corners;&lt;/p&gt;&lt;p&gt;2) Side thickness;&lt;/p&gt;&lt;p&gt;3) Side color;&lt;/p&gt;&lt;p&gt;4) Fill color, if user check &amp;quot;Filled&amp;quot;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="swapAreasTab">
+      <attribute name="title">
+       <string>Swap areas</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Swap areas&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Swap 4 pieces of the area. The rectangular area selected by the user is divided into 4 parts and these parts swap.&lt;/p&gt;&lt;p&gt;User must enter:&lt;/p&gt;&lt;p&gt;1) The coordinates of the top left corner of the area (by pressing left button);&lt;/p&gt;&lt;p&gt;2) The coordinates of the bottom right corner of the area (by releasing button);&lt;/p&gt;&lt;p&gt;3) Method of exchange of parts: &amp;quot;in a circle&amp;quot;, diagonally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="replaceCommonColor">
+      <attribute name="title">
+       <string>Replace common color</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Replace common color&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Tool finds most common color and replace it with another color, specified by user.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

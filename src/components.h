@@ -1,0 +1,11 @@
+#ifndef COMPONENTS_H
+#define COMPONENTS_H
+
+enum Components {
+    COMPONENT_NULL,
+    COMPONENT_RED,
+    COMPONENT_GREEN,
+    COMPONENT_BLUE,
+};
+
+#endif // COMPONENTS_H
